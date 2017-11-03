@@ -1,0 +1,37 @@
+# cluster Nm N200 z dz s_rmax s_rmax_err rmax/r200 MDcor MDscatter s200 s200_err r200 r200_err m200 m200_err
+#
+# Columns:
+#    0 cluster : Cluster name
+#    1 Nm : Number of spectroscopic members
+#    2 N200 : Number of spectroscopic members within r200
+#    3 z : Cluster redshift
+#    4 dz : Uncertainty in cluster redshift
+#    5 s_rmax : Velocity dispersion measured at the maximum available cluster-centric distance
+#    6 s_rmax_err : Uncertainty on s_rmax 
+#    7 rmax/r200 : Maximum available cluster-centric distance in units of r200
+#    8 MDcor : Correction to the velocity dispersion derived from the Multidark simulation (set to 1 if rmax/r200 >= 1)
+#    9 MDscatter : Scatter in MDcor at rmax/r200 
+#   10 s200 : Velocity dispersion at r200     
+#   11 s200_err : Uncertainty on s200
+#   12 r200 : Radius enclosing 200 times the critical density at the cluster redshift
+#   13 r200_err : Uncertainty on r200
+#   14 m200 : Mass within r200
+#   15 m200_err : Uncertainty on m200
+#   16 stripe82 : Whether the cluster is within the SDSS Stripe82 footprint
+#
+ACT-CL_J0102-4915     86  81 0.8700 0.0010 1273 113 1.18 1.000 0.000 1284 117 1.55 0.13 1.13e+15 2.88e+14
+ACT-CL_J0215-5212     54  54 0.4803 0.0008 1027 110 0.83 1.009 0.019 1018 110 1.59 0.16 7.63e+14 2.31e+14
+ACT-CL_J0232-5257     63  63 0.5561 0.0007  924  86 0.66 1.026 0.042  900  85 1.35 0.12 5.16e+14 1.36e+14
+ACT-CL_J0235-5121     80  80 0.2775 0.0005 1044  92 0.48 1.051 0.091  994  92 1.74 0.15 7.96e+14 2.04e+14
+ACT-CL_J0237-4939     65  65 0.3343 0.0007 1290  90 0.39 1.066 0.128 1210  92 2.01 0.14 1.31e+15 2.75e+14
+ACT-CL_J0304-4921     61  61 0.3917 0.0007 1098  95 0.51 1.046 0.082 1050  95 1.71 0.14 8.67e+14 2.19e+14
+ACT-CL_J0330-5227     71  71 0.4417 0.0008 1247  98 0.46 1.055 0.101 1182  99 1.85 0.14 1.16e+15 2.70e+14
+ACT-CL_J0346-5438     88  88 0.5297 0.0007 1081  76 0.77 1.014 0.026 1066  76 1.60 0.10 8.27e+14 1.62e+14
+ACT-CL_J0438-5419     63  63 0.4212 0.0009 1268 108 0.56 1.039 0.066 1221 108 1.93 0.16 1.29e+15 3.16e+14
+ACT-CL_J0509-5341     74  71 0.4601 0.0005  860  78 1.13 1.000 0.000  865  82 1.38 0.12 4.90e+14 1.29e+14
+ACT-CL_J0521-5104     19  19 0.6742 0.0018  941 198 0.97 1.001 0.000  940 198 1.35 0.28 5.87e+14 3.61e+14
+ACT-CL_J0528-5259     55  44 0.7676 0.0010  934 114 1.44 1.000 0.000  984 126 1.30 0.16 5.91e+14 2.13e+14
+ACT-CL_J0546-5345     45  40 1.0668 0.0013 1020 138 1.20 1.000 0.000 1018 147 1.13 0.15 5.50e+14 2.26e+14
+ACT-CL_J0559-5249     25  25 0.6094 0.0016 1085 134 0.86 1.007 0.016 1078 136 1.55 0.18 8.34e+14 2.96e+14
+ACT-CL_J0616-5227     18  18 0.6837 0.0015 1156 193 0.75 1.015 0.027 1139 190 1.58 0.25 9.54e+14 4.54e+14
+ACT-CL_J0707-5522     58  58 0.2958 0.0005  838  82 0.66 1.026 0.043  816  82 1.44 0.13 4.60e+14 1.28e+14
