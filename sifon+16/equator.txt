@@ -6,28 +6,32 @@
 #    2 N200 : Number of spectroscopic members within r200
 #    3 z : Cluster redshift
 #    4 dz : Uncertainty in cluster redshift
-#    5 s_rmax : Velocity dispersion measured at the maximum available cluster-centric distance
-#    6 s_rmax_err : Uncertainty on s_rmax
-#    7 rmax/r200 : Maximum available cluster-centric distance in units of r200
+#    5 s_rmax : Rest-frame velocity dispersion measured at the maximum available cluster-centric distance, in km/s
+#    6 s_rmax_err : Uncertainty on s_rmax, in km/s
+#    7 rmax/r200 : Maximum available cluster-centric distance, in units of r200
 #    8 MDcor : Correction to the velocity dispersion derived from the Multidark simulation (set to 1 if rmax/r200 >= 1)
 #    9 MDscatter : Scatter in MDcor at rmax/r200
-#   10 s200 : Velocity dispersion at r200
-#   11 s200_err : Uncertainty on s200
-#   12 r200 : Radius enclosing 200 times the critical density at the cluster redshift
-#   13 r200_err : Uncertainty on r200
-#   14 m200 : Mass within r200
-#   15 m200_err : Uncertainty on m200
+#   10 s200 : Velocity dispersion at r200, in km/s
+#   11 s200_err : Uncertainty on s200, in km/s
+#   12 r200 : Radius enclosing 200 times the critical density at the cluster redshift, in Mpc (h=0.7)
+#   13 r200_err : Uncertainty on r200, in Mpc (h=0.7)
+#   14 m200 : Mass within r200, in Msun (h=0.7)
+#   15 m200_err : Uncertainty on m200, in Msun (h=0.7)
 #   16 stripe82 : Whether the cluster is within the SDSS Stripe82 footprint
+#
+# Notes:
+#   * Two clusters have too few spectroscopic members. For them, only the cluster redshift was calculated;
+#     all other quantities were set to -1. These two clusters were not included in the table in the paper.
 #
 ACT-CL_J0014.9-0057    62  45 0.5331 0.0007  806  90 1.75 1.000 0.000  850 108 1.31 0.16 4.55e+14 1.63e+14  0
 ACT-CL_J0022.2-0036    55  44 0.8048 0.0014  961 123 1.71 1.000 0.000 1025 164 1.33 0.20 6.61e+14 3.01e+14  1
 ACT-CL_J0045.2-0152    56  44 0.5483 0.0009  930  76 1.41 1.000 0.000  967  86 1.45 0.12 6.29e+14 1.55e+14  0
-ACT-CL_J0058.0+0030     7   -1  0.78894  0.00229   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0
+ACT-CL_J0058.0+0030     7  -1 0.7889 0.0023   -1  -1   -1    -1    -1   -1  -1   -1   -1       -1       -1  0
 ACT-CL_J0059.1-0049    44  23 0.7870 0.0012  884 146 1.82 1.000 0.000  874 206 1.19 0.28 4.60e+14 3.20e+14  1
 ACT-CL_J0119.9+0055    16  14 0.7310 0.0011  725 128 1.06 1.000 0.000  786 149 1.10 0.20 3.40e+14 1.86e+14  1
 ACT-CL_J0127.2+0020    46  46 0.3801 0.0008  994 107 0.92 1.003 0.010  991 104 1.64 0.16 7.49e+14 2.20e+14  1
 ACT-CL_J0152.7+0100   253 144 0.2291 0.0004  931  41 2.57 1.000 0.000 1065  55 1.90 0.09 9.74e+14 1.39e+14  1
-ACT-CL_J0156.4-0123     6   -1  0.45330  0.00140   -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  -1  0
+ACT-CL_J0156.4-0123     6  -1 0.4533 0.0014   -1  -1   -1    -1    -1   -1  -1   -1   -1       -1       -1  0
 ACT-CL_J0206.2-0114    40  23 0.6758 0.0010  570 107 2.02 1.000 0.000  625 165 0.94 0.25 2.01e+14 1.60e+14  1
 ACT-CL_J0215.4+0030    14  11 0.8622 0.0026 1386 262 1.27 1.000 0.000 1256 268 1.57 0.33 1.17e+15 7.26e+14  1
 ACT-CL_J0218.2-0041    61  41 0.6727 0.0008  723  76 1.80 1.000 0.000  790  92 1.12 0.12 3.40e+14 1.11e+14  1
