@@ -6,18 +6,17 @@
 #    2 N200 : Number of spectroscopic members within r200
 #    3 z : Cluster redshift
 #    4 dz : Uncertainty in cluster redshift
-#    5 s_rmax : Velocity dispersion measured at the maximum available cluster-centric distance
-#    6 s_rmax_err : Uncertainty on s_rmax 
+#    5 s_rmax : Rest-frame velocity dispersion measured at the maximum available cluster-centric distance, in km/s
+#    6 s_rmax_err : Uncertainty on s_rmax, in km/s
 #    7 rmax/r200 : Maximum available cluster-centric distance in units of r200
 #    8 MDcor : Correction to the velocity dispersion derived from the Multidark simulation (set to 1 if rmax/r200 >= 1)
 #    9 MDscatter : Scatter in MDcor at rmax/r200 
-#   10 s200 : Velocity dispersion at r200     
-#   11 s200_err : Uncertainty on s200
-#   12 r200 : Radius enclosing 200 times the critical density at the cluster redshift
-#   13 r200_err : Uncertainty on r200
-#   14 m200 : Mass within r200
-#   15 m200_err : Uncertainty on m200
-#   16 stripe82 : Whether the cluster is within the SDSS Stripe82 footprint
+#   10 s200 : Rest-frame velocity dispersion at r200, in km/s
+#   11 s200_err : Uncertainty on s200, in km/s
+#   12 r200 : Radius enclosing 200 times the critical density at the cluster redshift, in Mpc (h=0.7)
+#   13 r200_err : Uncertainty on r200, in Mpc (h=0.7)
+#   14 m200 : Mass within r200, in Msun (h=0.7)
+#   15 m200_err : Uncertainty on m200, in Msun (h=0.7)
 #
 ACT-CL_J0102-4915     86  81 0.8700 0.0010 1273 113 1.18 1.000 0.000 1284 117 1.55 0.13 1.13e+15 2.88e+14
 ACT-CL_J0215-5212     54  54 0.4803 0.0008 1027 110 0.83 1.009 0.019 1018 110 1.59 0.16 7.63e+14 2.31e+14
