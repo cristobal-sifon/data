@@ -4,7 +4,7 @@
 
 This repository hosts data from tables of figures in papers that I've published (and possibly ancillary data), in machine-readable format.
 
-To be included:
+Below is a list of data included or to be included in this repository (the former in bold).
 
  * Sifón+17: [*A First Constraint on the Average Mass of Ultra Diffuse Galaxies from Weak Gravitational Lensing*](http://adsabs.harvard.edu/abs/2017arXiv170407847S)
    * Cluster sample (Table 1)
@@ -13,8 +13,8 @@ To be included:
    * MCMC posterior distribution (Figure 3), including derived parameters such as the mass enclosed within 10, 20 and 30 kpc (cf. Equations 8)
 
  * Sifón+16: [*The Atacama Cosmology Telescope: Dynamical Masses for 44 SZ-Selected Galaxy Clusters over 755 Square Degrees*](http://adsabs.harvard.edu/abs/2016MNRAS.461..248S)
-   * Cluster redshifts, velocity dispersions, and dynamical masses (Table 2)
-   * BCG peculiar velocities and DS test substructure significance (Figure 7)
+   * **Cluster redshifts, velocity dispersions, and dynamical masses (Table 2)**
+   * **BCG peculiar velocities and DS test substructure significance (Figure 7)**
    * Full catalog of spectroscopic redshifts (Table B1)
    
    **Note:** The results in this paper supersede those in [Sifón+13](https://adsabs.harvard.edu/abs/2013ApJ...772...25S)
