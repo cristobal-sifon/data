@@ -12,6 +12,9 @@ Below is a list of data included or to be included in this repository (the forme
    * Weak lensing measurements and best-fit model (Figure 2)
    * MCMC posterior distribution (Figure 3), including derived parameters such as the mass enclosed within 10, 20 and 30 kpc (cf. Equations 8)
 
+ * Albert+17: [*Complex diffuse emission in the z = 0.52 cluster PLCK G004.5-19.5*](https://ui.adsabs.harvard.edu/abs/2017A&A...607A...4A/abstract)
+   * **Spectroscopic galaxy redshifts from FORS2 and GMOS**
+
  * Sifón+16: [*The Atacama Cosmology Telescope: Dynamical Masses for 44 SZ-Selected Galaxy Clusters over 755 Square Degrees*](http://adsabs.harvard.edu/abs/2016MNRAS.461..248S)
    * **Cluster redshifts, velocity dispersions, and dynamical masses (Table 2)**
    * **BCG peculiar velocities and DS test substructure significance (Figure 7)**
