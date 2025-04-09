@@ -28,7 +28,7 @@ Below is a list of data included or to be included in this repository (the forme
    * Satellite lensing covariance (Figure A1)
 
  * Sifón+15a: [*Constraints on the Alignments of Galaxies in Galaxy Clusters from ~14,000 Spectroscopic Members*](https://adsabs.harvard.edu/abs/2015A&A...575A..48S)
-   * Cluster sample, redshifts, and velocity dispersions (Table 2, see also Figures 1, 3)
+   * **Cluster sample, redshifts, and velocity dispersions (Table 2, see also Figures 1, 3)**
    * Purity and spectroscopic completeness of red sequence sample, and mock photo-z sample (Figure 4)
    * Intrinsic alignment measurements for all cluster members (Figure 8), in bins of cluster mass, redshift and dynamical state (Figure 9), and in bins of galaxy magnitude and color (Figure 10) 
    * BCG alignment measurements (Figure 11)
